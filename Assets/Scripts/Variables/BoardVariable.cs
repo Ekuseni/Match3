@@ -327,7 +327,7 @@ public class BoardVariable : ScriptableObject
         CollectSequence.AppendCallback(() => SpawnNew());
     }
 
-    public static Vector2Int replaceFrom = Vector2Int.down;
+    public static Vector2Int replaceFrom = Vector2Int.up;
 
     public static void SpawnNew()
     {
